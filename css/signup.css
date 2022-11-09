@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /*overflow-y: hidden;*/
+    }	
+    
+    .logo{
+    position: absolute;
+    margin-left: 35%;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: cursive;
+    }
+    .mainSection{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 80vh;box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.3) ;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 2vw;
+    }
+    .right{
+    height: 60vh;
+    width: 35vw;
+    margin-right: 3vw;
+    margin-top: 4vh;
+    /* background-color: ; */
+    position: relative;
+    
+    }
+    .left{
+    height: 80vh;
+    width: 35vw;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    .h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+    }
+    .left img{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    h1{
+    margin: auto 0;
+    font-family: cursive;
+    }
+    
+    form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+    .input,input[type="submit"]{
+    margin-top: 2vh;
+    margin-left: 8vw;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 1vw;
+    border: none;
+    box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.3) ;
+    padding-left:2vw ;
+    }
+    input[type="text"]:focus{
+    border: none;
+    }
+    input[type="submit"]{
+    margin-top: 3vh;
+    width: 22vw;
+    
+    font-family: cursive;
+    
+    }
+    .forgot{
+    margin-left: 15vw;
+    }
+    .forgot p a{
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-family: cursive;
+    }
+    .Login_{
+    margin-top: 3vh;
+    }
+    .createAccount{
+    margin-left: 12vw;
+    }
+    .createAccount a{
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    word-spacing: 2px;
+    font-family: cursive;
+    }
+    
+    .SigupMain{
+    position: relative;
+    top: 10vh ;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 80vh;box-shadow:0 0 5px 2px rgba(0, 0, 0, 0.3) ;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 2vw;
+    
+    }
+    
+    #SigupMain{
+        /* display: none; */
+    }
+    
+
+
+    .pwd_mis{
+        position:absolute;
+        color: crimson;
+        font-family: Cursive;
+        font-size: 1.2rem;
+        right: 22vw;
+        margin-top: -4vh;
+        /* top: -2vh;   */
+    }
