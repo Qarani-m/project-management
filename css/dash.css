@@ -1,82 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Cedarville+Cursive&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Asap', sans-serif;
 }
-
 .big{
-    /* margin: 0 15vw 0 45vw 0; */
-    /* background-color: red; */
     width: 100vw;
     height: 100vh;
-    
-
 }
 .navbar{
     position:fixed;
+    z-index: 9;
     top: 0px;
     left: 0px;
     width: 100vw;
     height:10vh;
-    /* background-color: red; */
 }
 .navbar ul div{
     width: 70%;
     height: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     align-items: center;
     gap: 3vw;
     list-style: none;
-    margin-left: 15vw;
+    margin-left: 25vw;
 }
 .navbar a{
     text-decoration: none;
     color: black;
     font-size: 1.2 rem;
     font-family: cursive;
-
-
-    
-    
 }
 .navbar ul li{
-    /* background-color: aqua; */
     padding: 2vh;
     padding: 2vh 2.5vw 3vh 2.5vw;
+    background-color: none;
+    border-width: 2px; 
 }
 .navbar ul li:hover{
-    background-color: rebeccapurple;
+    bottom-border-width: 2px;
+    border-color: red;
+    bottom-border-style:solid;
 }
 .navbar ul {
     font-weight: 600;
     width: 100%;
     height: 100%;
-    /* background-color: yellow; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
-.left{
-    width: 30vw;
+ .logout {
+    list-style: none;
+    margin-right:5vw ;
+}
+.inner_left{
+    width: 40vh;
     height: 40vh;
-    background-color: red;
+    position: relative;
+    border-radius:50%;
+}
+.inner_left img{
+    width: 40vh;
+    height: 40vh;
+    border-radius:50%;
+
+}
+.left{
+    align-items: center;
+    text-align: center;
+    width: 40vh;
+    height: 65vh;
     position: relative;
     top: 12vh;
-    left:3vw
+    left:3vw;
 }
+.left h2{
+    font-weight: 400;
+    margin-top: 2vh;
+}
+.viewProfile{
+    width: 100%;
+    height: 6vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    border: none;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
 .abt{
-    width: 60vw;
-    height: 40vh;
-    background-color: red;
+    width: 63vw;
+    height: 27vh;
+    background-color: white;
     position: relative;
-    top: -28vh;
-    left:35vw
+    top: -50vh;
+    left:30vw;
+    padding: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 2vh;
+    border: 1px solid black;
 }
+.padded{
+    margin-left:3vw;
+    line-height: 4vh;
+}
+.repos{
+    width: 63vw;
+    height: auto;
+    border-radius: 2vh;
+    position: relative;
+    top: -10vh;
+    left:30vw;
+    display: inline-flex;
+    gap: 3vw;
+}
+.sem1,.sem2{
+    width: 30vw;
+    height: auto;
+    border-radius: 2vh;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+.iner{
+    margin-top: 2vh;
+    width: 29vw;
+    height: 15vh;
+    border-radius: 2vh;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1vh;
+    position: relative;
+}
+.title{
+    text-decoration: none;
+    color: black
+}
+.submit{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6.3vw;
+    margin-top: 2vh;
+}
+.lang{
+    margin-top: 3vh;
+}
+.changeImg{
+    margin-top: -37vh;
+    position: relative;
+    width: 10vw;
+    left: 4.6vw;
+    display: none;
+}
+form button{
+    position: absolute;
+    margin-left:-3vw;
+    margin-top:5vw;
+    border: none;
+    background-color: crimson;
+    padding: 0.5vw;
+    border-radius: 1vh;
+}
+.changeImg svg{
+    height: 10vh;
+    width: 3vw;
+    left: 15vw;
+    color: white;
+}
+input[type="file"]{
+    display: none;
+}
+

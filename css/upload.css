@@ -1,0 +1,50 @@
+.upload{
+    height: 40vh;
+    width: 63vw;
+    top: -40vh;
+    left:30vw;
+    position:relative;
+    text-align: center;
+}
+.max{
+    height: 6vh;
+    margin-bottom: 2vh;
+     background-color: rgba(220, 20, 60,0.4);
+    border-left: 0.5vw solid yellow;
+    padding-top: 2vh;
+}
+
+.main{
+    padding-top: 10vh;
+    background-color: rgba(255, 255, 255,0.5);
+    height: 30vh;
+    width: 100%;
+    border: 0.3vw dashed rgba(0, 0, 0,0.5);
+}
+
+.dragover{
+    border: 0.3vw dashed rgba(193, 37, 37, 0.5);
+}
+.main p{
+    margin-bottom: 2vh;
+}
+form input[type="file"]{
+    display: none;
+}
+label{
+    background-color: crimson;
+    border-radius: 2vh;
+    border: 1px solid red;
+    padding:1vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width:9vw;
+}
+#submit_{
+    margin-top: -1vh;
+    width: 9vw;
+    display: none;
+}
+.fileSuccess{
+    color:crimson;
+}
